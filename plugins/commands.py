@@ -47,8 +47,7 @@ async def start(client, message):
                 InlineKeyboardButton('⇄ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('⛥ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ⛥', callback_data="subscription")
-            ],[
-                InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
+            ,InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ ⍟', callback_data='about')
             ],[
                 InlineKeyboardButton('⚡ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
             ]]
@@ -56,8 +55,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⇄ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('⛥ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ⛥', callback_data="subscription")
-            ],[
+                InlineKeyboardButton('⛥ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ⛥', callback_data="subscription"),
                 InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('⚡ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
