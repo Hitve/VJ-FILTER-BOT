@@ -29,7 +29,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002239391173'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002181893967 -1002497546948 -1002482795383 -1002491962532 -1002193285111 -1002347002034 -1002288605627 -1002459396609 -1002310435834 -1002468599319 -1002444070783 -1002469555441 -1002489902626 -1002470640246 -1002340259455').split()]  # For Multiple Id Use One Space Between Each.
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002181893967 -1002497546948 -1002482795383 -1002491962532 -1002193285111 -1002347002034 -1002288605627 -1002459396609 -1002310435834').split()]  # For Multiple Id Use One Space Between Each.
 
 # auth_channel means force subscribe channel.
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
