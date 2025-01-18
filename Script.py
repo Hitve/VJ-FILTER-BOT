@@ -3,7 +3,7 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><i><tg-spoiler>ʜᴇʏ ʙᴀʙʏ {} 😍,</tg-spoiler>
+    START_TXT = """<b><i> <tg-spoiler>ʜᴇʏ ʙᴀʙʏ {} 😍,</tg-spoiler>
     
 <blockquote>ɪ'ᴍ ᴀ ꜰᴀꜱᴛ & ꜰᴜʟʟ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ᴡɪᴛʜ ᴀᴅᴠᴀɴᴄᴇ ꜰᴇᴀᴛᴜʀᴇꜱ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ</blockquote>
 ...💸</i></b>"""
