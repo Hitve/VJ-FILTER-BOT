@@ -3,7 +3,7 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><i><pre><tg-spoiler>ʜᴇʏ ʙᴀʙʏ {} 😍,</tg-spoiler></pre>
+    START_TXT = """<b><i><blockquote><tg-spoiler>ʜᴇʏ ʙᴀʙʏ {} 😍,</tg-spoiler></blockquote>
     
 <blockquote>ɪ'ᴍ ᴀ ꜰᴀꜱᴛ & ꜰᴜʟʟ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ᴡɪᴛʜ ᴀᴅᴠᴀɴᴄᴇ ꜰᴇᴀᴛᴜʀᴇꜱ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ</blockquote>
 ...💸</i></b>"""
@@ -239,9 +239,17 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b></blockquote><i>🔅 Fɪʟᴇɴᴀᴍᴇ : <tg-spoiler><a href='https://t.me/Mg_networks'>ᴍɢ ɴᴇᴛᴡᴏʀᴋ</a></tg-spoiler>{file_name} </blockquote>
 
-<b> Size ⚙️: {file_size}</b>""" 
+<b> ꜰɪʟᴇ ꜱɪᴢᴇ ♨️: {file_size}</b></i>
+
+<b>━━━━━━━━━━━━━━━━━━ 🎬
+💢 Jᴏɪɴ Nᴇᴡ Gʀᴏᴜᴘ🔻
+━━━━━━━━━━━━━━━━━━ 
+https://t.me/+67Bq9dmawUA0NjJl
+https://t.me/+67Bq9dmawUA0NjJl
+https://t.me/+67Bq9dmawUA0NjJl</b>
+""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -458,12 +466,13 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  
     RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+<b><i>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
-🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
+🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code>
+for @shameless_moviebot </i></b>"""
 
     LOGO = """
 ████████╗███████╗███████╗██╗  ██╗    ╔██        ██╗       ██╗
