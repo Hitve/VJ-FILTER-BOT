@@ -43,19 +43,20 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
-            buttons = buttons = [[
+            buttons = [[
                 InlineKeyboardButton('⇄ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💎ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ', callback_data="subscription"),InlineKeyboardButton('🚀ᴀʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('☉ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ☉', url="https://t.me/+iT7JFHQZtgliZDI9"),InlineKeyboardButton('◈ᴀʙᴏᴜᴛ◈', callback_data='about')
             ],[
-                InlineKeyboardButton('⚡ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ💸', callback_data="shortlink_info")
+                InlineKeyboardButton('💸ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ💸', callback_data="shortlink_info")
             ]]
         else:
             buttons = [[
                 InlineKeyboardButton('⇄ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('💎ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ', callback_data="subscription"),InlineKeyboardButton('🚀ᴀʙᴏᴜᴛ', callback_data='about')],[
-                InlineKeyboardButton('⚡ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
+                InlineKeyboardButton('☉ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ☉', url="https://t.me/+iT7JFHQZtgliZDI9"),InlineKeyboardButton('◈ᴀʙᴏᴜᴛ◈', callback_data='about')
+            ],[
+                InlineKeyboardButton('💸ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ💸', callback_data="shortlink_info")
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
@@ -79,7 +80,7 @@ async def start(client, message):
                 invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
         except Exception as e:
             print(e)
-            await message.reply_text("Make sure Bot is admin in Forcesub channel")
+            await message.reply_text("💢 ᴍᴀᴋᴇ ꜱᴜʀᴇ ʙᴏᴛ ɪꜱ ᴀᴅᴍɪɴ ɪɴ ꜰᴏʀᴄᴇꜱᴜʙ ᴄʜᴀɴɴᴇʟ 💢")
             return
         try:
             btn = [[
