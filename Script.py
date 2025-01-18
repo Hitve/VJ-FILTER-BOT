@@ -3,7 +3,7 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><i><blockquote><tg-spoiler>ʜᴇʏ ʙᴀʙʏ {} 😍,</tg-spoiler></blockquote>
+    START_TXT = """<b><i><tg-spoiler>ʜᴇʏ ʙᴀʙʏ {} 😍,</tg-spoiler>
     
 <blockquote>ɪ'ᴍ ᴀ ꜰᴀꜱᴛ & ꜰᴜʟʟ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ᴡɪᴛʜ ᴀᴅᴠᴀɴᴄᴇ ꜰᴇᴀᴛᴜʀᴇꜱ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ</blockquote>
 ...💸</i></b>"""
@@ -239,11 +239,11 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b></blockquote><i>🔅 Fɪʟᴇɴᴀᴍᴇ : <tg-spoiler><a href='https://t.me/Mg_networks'>ᴍɢ ɴᴇᴛᴡᴏʀᴋ</a></tg-spoiler>{file_name} </blockquote>
+    CAPTION = """<b><blockquote><i>🔅 Fɪʟᴇɴᴀᴍᴇ : <tg-spoiler><a href='https://t.me/Mg_networks'>ᴍɢ ɴᴇᴛᴡᴏʀᴋ</a></tg-spoiler>{file_name}</blockquote></b>
 
 <b> ꜰɪʟᴇ ꜱɪᴢᴇ ♨️: {file_size}</b></i>
 
-<b>━━━━━━━━━━━━━━━━━━ 🎬
+<b>━━━━━━━━━━━━━━━━━━
 💢 Jᴏɪɴ Nᴇᴡ Gʀᴏᴜᴘ🔻
 ━━━━━━━━━━━━━━━━━━ 
 https://t.me/+67Bq9dmawUA0NjJl
